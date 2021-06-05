@@ -1,12 +1,197 @@
 <template>
   <div>
     <header class="text-gray-600 body-font bg-green-100">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-        <a href="#" class="mr-5 hover:text-gray-900">Shop</a>
-        <a href="#" class="mr-5 hover:text-gray-900">Categories<sup><small class="mx-2">NEW</small></sup></a>
-        <a href="#" class="mr-5 hover:text-gray-900">Pages</a>
-        <a href="#" class="hover:text-gray-900">Elements</a>
+     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+       <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+       <!---first dropdown---->
+        <div class="relative group">
+          <button class="flex flex-row items-center w-full px-4 py-4 mt-2 text-base text-right  bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none font-montserrat">
+              <span>Shop</span>
+          </button>
+          <div class="absolute z-10 hidden bg-grey-200 group-hover:block">
+              
+              <div class="px-2 pt-2 pb-4  bg-gray-800 text-white shadow-lg">
+                <div class="flex grid grid-cols-2 w-80 gap-4 md:grid-cols-2">
+                  <div>
+                    <p class="px-2 py-2">photo shop</p>
+                    <ul class="list-none md:list-none">
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Fullscreen</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Header Search</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Infinite Scroll</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Masonry Grid</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Menus</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Overlay</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Pagination</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Popup Filters</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Sidebar</a></li>
+                    </ul>
+                    <p class="px-2 py-2">Product Types</p>
+                    <ul class="list-none md:list-none">
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Simple</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Variable</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Grouped</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">External/Affiliate</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Out of stock</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p class="px-2 py-2">Product Layout</p>
+                    <ul class="list-none md:list-none">
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">No Background</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Switches & levels</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Extend Description</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Grid</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Expnded</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Horizon</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scrolling</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scattered</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Featured Video</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Image Zoom</a></li>
+                    </ul>
+                    <p class="px-2 py-2">Shop Pages</p>
+                    <ul class="list-none md:list-none">
+                      <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Cart</a></li>
+                      <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Checkout</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                      <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Order Tracking</a></li>
+                      <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">My Account</a></li>
+                      <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Wishlist</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div> 
+         <!---End 2nd dropdown---->
+         <div class="relative group">
+            <button class="flex flex-row items-center w-full px-4 py-4 mt-2 text-base text-right  bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none font-montserrat">
+                <a href="#" class="mr-5 hover:text-gray-900">Categories<sup><small class="mx-2">NEW</small></sup></a>
+            </button>
+            <div class="absolute z-10 hidden bg-grey-200 group-hover:block">        
+              <div class="px-2 pt-2 pb-4  bg-gray-800 text-white shadow-lg">
+                <div class="flex grid grid-cols-2 w-80 gap-4 md:grid-cols-2">
+                  <div>
+                    <p class="px-2 py-2">photo shop</p>
+                      <ul class="list-none md:list-none">
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Fullscreen</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Header Search</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Infinite Scroll</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Masonry Grid</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Menus</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Overlay</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Pagination</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Popup Filters</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Sidebar</a></li>
+                      </ul>
+                    <p class="px-2 py-2">Product Types</p>
+                      <ul class="list-none md:list-none">
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Simple</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Variable</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Grouped</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">External/Affiliate</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Out of stock</a></li>
+                      </ul>
+                  </div>
+                  <div>
+                    <p class="px-2 py-2">Product Layout</p>
+                      <ul class="list-none md:list-none">
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">No Background</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Switches & levels</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Extend Description</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Grid</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Expnded</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Horizon</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scrolling</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scattered</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Featured Video</a></li>
+                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Image Zoom</a></li>
+                      </ul>
+                    <p class="px-2 py-2">Shop Pages</p>
+                      <ul class="list-none md:list-none">
+                        <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Cart</a></li>
+                        <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Checkout</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                        <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Order Tracking</a></li>
+                        <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">My Account</a></li>
+                        <li><a href="#" class="text-sm text-gray-400 px-2 py-2 hover:text-gray-100">Wishlist</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+         <!---End 3rd dropdown---->
+         <div class="relative group">
+          <button class="flex flex-row items-center w-full px-4 py-4 mt-2 text-base text-right  bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none font-montserrat">
+              <a href="#" class="mr-5 hover:text-gray-900">pages</a>
+          </button>
+          <div class="absolute z-10 hidden bg-grey-200 group-hover:block">
+              <div class="px-2 pt-2 pb-4  bg-gray-800 text-white shadow-lg">
+                <div class="flex grid grid-cols-2 w-80 gap-4 md:grid-cols-2">
+                  <div>
+                    <ul class="list-none md:list-none">
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">About Us</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Blog</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Blog-Classic+Sidebar</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Blog-List</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Blog-Infinite</a><sup class="bg-white text-gray-900 m-1"><span>New</span></sup></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Blog-Single Post</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Contact</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Contact-Form</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Fag</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Portfolio</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">Portfolio-Single</a></li>
+                      <li class="px-2 py-1"><a href="#" class="text-sm text-gray-300 hover:text-gray-100">404</a></li>
+                    </ul>
+                  </div> 
+                </div>
+              </div>
+          </div>
+          </div> 
+         <!---End 3rd dropdown---->
+          <!---4th dropdown---->
+            <div class="relative group">
+              <button class="flex flex-row items-center w-full px-4 py-4 mt-2 text-base text-right  bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none font-montserrat">
+                  <a href="#" class="mr-5 hover:text-gray-900">pages</a>
+              </button>
+              <div class="absolute z-10 hidden bg-grey-200 group-hover:block">
+                  <div class="px-2 pt-2 pb-4  bg-gray-800 text-white shadow-lg">
+                    <div class="flex grid grid-cols-2 w-80 gap-4 md:grid-cols-2">
+                      <div>
+                        <p class="px-2 py-2">photo shop</p>
+                        <ul class="list-none md:list-none">
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Fullscreen</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Header Search</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Infinite Scroll</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Masonry Grid</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Menus</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Overlay</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Pagination</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Popup Filters</a></li>
+                          <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Sidebar</a></li>
+                        </ul>  
+                      </div>
+                      <div>
+                        <p class="px-2 py-2">Product Layout</p>
+                          <ul class="list-none md:list-none">
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">No Background</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Switches & levels</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Extend Description</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Grid</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Expnded</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Horizon</a><sup class="bg-white text-gray-900"><span>New</span></sup></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scrolling</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Gallery-Scattered</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Featured Video</a></li>
+                            <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Image Zoom</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div> 
+          
       </nav>
       <a href="#" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <span class="ml-3 text-2xl text-gray-700 font-semibold uppercase tracking-widest">Savoy</span>
@@ -18,113 +203,85 @@
           </svg>
         </span>
         <a href="#" class="mr-5 hover:text-gray-900">Sign In</a>
+
+      <!---login modal--->
+        <button class="text-white rounded bg-yellow-300 px-6 py-4 font-sans font-semibold shadow-lg hover:bg-yellow-800 outline-none active:outline-none focus:outline-none" @click="toggleModal = !toggleModal">
+          Open Modal
+        </button>
+        <div class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50"
+        v-if="toggleModal"
+        >
+        <div class="relative mx-auto w-full max-w-2xl">
+        
+      
+    <!-- Auth Card Container -->
+    <div class="grid place-items-center w-full mx-2 my-20 sm:my-auto">
+        <!-- Auth Card -->
+        <div class="w-full p-12 sm:w-8/12 md:w-6/12 lg:w-12/12 2xl:w-4/12 
+            px-6 py-10 sm:px-10 sm:py-6 
+            bg-white rounded-lg shadow-md lg:shadow-lg">
+
+            <!-- Card Title -->
+            <h2 class="text-center font-semibold text-3xl lg:text-4xl text-gray-800">
+                Login
+            </h2>
+
+            <form class="mt-10" method="POST">
+                <!-- Email Input -->
+                <label for="email" class="block text-xs font-semibold text-gray-600 uppercase">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="e-mail address" autocomplete="email"
+                    class="block w-full py-3 px-1 mt-2 
+                    text-gray-800 appearance-none 
+                    border-b-2 border-gray-100
+                    focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                    required />
+
+                <!-- Password Input -->
+                <label for="password" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">Password</label>
+                <input id="password" type="password" name="password" placeholder="password" autocomplete="current-password"
+                    class="block w-full py-3 px-1 mt-2 mb-4
+                    text-gray-800 appearance-none 
+                    border-b-2 border-gray-100
+                    focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                    required />
+
+                <!-- Auth Buttton -->
+                <button type="submit"
+                    class="w-full py-3 mt-10 bg-gray-800 rounded-sm
+                    font-medium text-white uppercase
+                    focus:outline-none hover:bg-gray-700 hover:shadow-none">
+                    Login
+                </button>
+
+                <!-- Another Auth Routes -->
+                <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
+                    <a href="forgot-password" class="flex-2 underline">
+                        Forgot password?
+                    </a>
+
+                    <p class="flex-1 text-gray-500 text-md mx-4 my-1 sm:my-auto">
+                        or
+                    </p>
+        
+                    <a href="register" class="flex-2 underline">
+                        Create an Account
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+   
+<button class="rounded bg-red-500 text-white px-6 mt-1 py-2"
+               @click="toggleModal=false">close
+            </button>
+          
+        </div>
+        </div>
+      <!---login modal---->
         <a href="#" class="mr-5 hover:text-gray-900">Cart<sup class="mx-2 text-yellow-500">0</sup></a>
       </div>
-    </div>
-  </header>
-  <!---dropdown practice
-    <div class="container mx-auto px-6">
-      <div class="relative text-left inline-flex flex-col">
-        <button @click="open = !open" class="p-3 flex items-center bg-black text-white">Dropdown
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-3" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-         </svg>
-        </button>
-
-      </div>
-    </div>
-dropdown practice--->
-
-<!---filter--->
-  <div v-if="open" class="absoulate w-full mt-12bg-white border-t border-grey-300 container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sort By</h2>
-          <div class="px-0 pt-4 pb-2">
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Bathroom</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Classic</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Contemporary</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Decor</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Essentials</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Grooming</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Interior</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Kitechen</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Leather</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Lighting</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Minimal</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Practical</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Tableware</span>
-            <span class="inline-block bg-gray-900 rounded-full px-3  text-sm font-semibold text-gray-200 mr-2 mb-2">Travel</span>
-          </div>
-      </div>
-    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sort By</h2>
-        <nav class="list-none mb-5">
-          <li class="p-1">
-            <a class="text-gray-600 hover:text-gray-800">Default</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 hover:text-gray-800">Popularity</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 hover:text-gray-800">Average rating</a>
-          </li>
-          <li class="p-1 hover:text-yellow-400">
-            <a class="text-yellow-600 hover:text-yellow-300">Newness</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 hover:text-gray-800">Price: Low to High</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 hover:text-gray-800">Price: High to Low</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Price</h2>
-        <nav class="list-none mb-5">
-          <li class="p-1">
-            <a class="text-yellow-600 hover:text-yellow-300">All</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 py-10 hover:text-gray-800">$0- $50</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 py-10 hover:text-gray-800">$50 - $100</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 mt-2 hover:text-gray-800">$100 - $150</a>
-          </li>
-          <li class="p-1">
-            <a class="text-gray-600 mt-2 hover:text-gray-800">$200</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Color</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Blue</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Grown</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Gray</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Green</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Orange</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">White</a>
-          </li>
-        </nav>
-      </div>
-    </div>
-  </div>
+     </div>
+   </header>
   </div>
 </template>
 
@@ -132,7 +289,7 @@ dropdown practice--->
 export default {
   data() {
     return {
-      open: false,
+     toggleModal: false
     }
 
   }

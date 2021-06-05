@@ -1,6 +1,9 @@
 <template>
     <div>
     <!---cart section--->
+    <div>
+      <Filters/>
+    </div>
     <section class="text-gray-600 body-font">
       <div class="container px-5 pt-5 mx-auto">
         <div class="flex flex-wrap -m-4">
@@ -172,8 +175,17 @@
 </template>
 
 <script>
+import Filters from '@/components/Filters'
 export default {
+  data(){
+    return{
+      title:'',
 
+    }
+  },
+  components:{
+    Filters,
+  },
 }
 </script>
 
