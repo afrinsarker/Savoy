@@ -7,7 +7,9 @@
      <div>
        <Nuxt/>
      </div>
-    
+     <div class="">
+        <Footer/>
+    </div>
   </div>
 </template>
 <script>
