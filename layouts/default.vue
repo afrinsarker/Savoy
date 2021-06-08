@@ -4,12 +4,17 @@
       <div class="bg-grey-600">
           <Navbar/>
       </div>
-     <div>
+    <!---End with navbar--->
+    <!---Start with body--->
+     <div class="">
        <Nuxt/>
      </div>
+    <!---End with navbar--->
+    <!---Start with footer--->
      <div class="">
         <Footer/>
-    </div>
+     </div>
+    <!---End with navbar--->
   </div>
 </template>
 <script>

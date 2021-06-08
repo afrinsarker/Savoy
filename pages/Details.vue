@@ -20,48 +20,6 @@
     </div>
    
 </div>
- <!---image 1--->
-          <div class="relative lg:w-1/4 md:w-1/2 p-4 w-full ">
-            <a class="block relative h-70 rounded overflow-hidden content-div">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-classic-chair-2-300x372.jpg">
-            </a>
-            <div class="flex flex-wrap">
-                <div class="mt-4">
-                  <h1 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h1>
-                  <p class="mt-1 text-gray-900">$16.00</p>
-                </div>
-                <span class="text-gray-400  inline-flex items-center  ml-auto leading-none text-sm pr-3 py-1 ">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                  </svg>
-                </span>
-                 <div class="absolute opacity-0 fd-sh group-hover:opacity-100">
-                     <div class="pt-8 mr-64">
-             <button class=" rounded-lg p-4 bg-white mt-20 ml-8 text-gray-700 font-bold text-lg">Learn more</button>
-           </div>
-    </div>
-           </div>
-          </div>
-          <!---image 1--->
-          <!---product card--->
-            <div class="container pb-10">
-              <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">Top new Arrival</h2>
-              <!----product grid--->
-               <div class="bg-white shadow-rounded overflow-hidden">
-                 <!---product image--->
-                   <div class="relative">
-                     <img src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-classic-chair-2-300x372.jpg" class="w-35">
-                     <div classs="absoulate inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2">
-                       <div class="text-black text-lg w-9 h-8 rounded-full bg-primary item-center justify-center hover:bg-gray-800 transition">
-                         <span>bangladesh</span>
-                       </div>
-                     </div>
-                   </div>
-                 <!---product image--->
-               </div>
-              <!----product grid--->
-            </div>
-           <!---product card--->
 
 
 
@@ -200,67 +158,6 @@
         </div>
     </section>
 
-
-     <!--perfect
-       <div class="relative ">
-    <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-      <div class="h-48 flex flex-wrap content-center">
-            <img src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-lighthouse-lantern-2-300x372.jpg" class="mx-auto  " alt="">
-        </div>
-      <h1  class=tracking-wider >Title</h1>
-      <p  class="mx-auto">Description</p>
-      </a>
-    <a href="#" class="relative">
-        <div class="h-48 flex flex-wrap content-center">
-            <img src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-classic-chair-2-300x372.jpg" class="mx-auto  " alt="">
-        </div>
-        
-    </a>
-  </div>
--end--->
-
-
-
-          <!--perfect-->
-       <div class="relative ">
-    <a class="absolute inset-0 z-10 bg-white  opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-        <div class="relative lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-70 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-pendant-lamp-2-300x372.jpg">
-            </a>
-           <div class="flex flex-wrap">
-                <div class="mt-4">
-                  <h1 class="text-gray-500 text-xs tracking-widest title-font mb-1">Modern shell chair</h1>
-                  <button class="text-gray-900">show more</button>
-                </div>
-                <span class="text-gray-400  inline-flex items-center  ml-auto leading-none text-sm pr-3 py-1 ">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                  </svg>
-                </span>
-           </div>
-          </div>
-      </a>
-    <a href="#" class="relative">
-         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-70 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-lighthouse-lantern-2-300x372.jpg">
-            </a>
-           <div class="flex flex-wrap">
-                <div class="mt-4">
-                  <h1 class="text-gray-500 text-xs tracking-widest title-font mb-1">Modern shell chair</h1>
-                  <p class="mt-1 text-gray-900">$16.00</p>
-                </div>
-                <span class="text-gray-400  inline-flex items-center  ml-auto leading-none text-sm pr-3 py-1 ">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                  </svg>
-                </span>
-           </div>
-          </div>
-    </a>
-  </div>
-<!---end--->
 
 
 </div>
