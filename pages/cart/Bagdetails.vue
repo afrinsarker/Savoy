@@ -1,11 +1,13 @@
 <template>
-  <div>
-    hi Bangladesh
-  </div>
+  <div>Here bag details</div>
 </template>
 
 <script>
 export default {
-  
-};
+
+}
 </script>
+
+<style>
+
+</style>

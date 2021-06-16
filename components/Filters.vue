@@ -5,11 +5,11 @@
         <div class="container px-5 py-10 mx-auto flex items-center md:flex-row flex-col">
           <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
             <div class="container px-5  mx-auto">
-                  <nuxt-link to="/" class="hover:underline text-yellow-600">All</nuxt-link>
-                  <nuxt-link :to="{ name: 'Bags' }" class="text-gray-600 hover:text-yellow-600">/Bags & Backpacks</nuxt-link>
-                  <nuxt-link :to="{ name: 'Decoration' }" class="text-gray-600 hover:text-yellow-600">/ Decoration</nuxt-link>
-                  <nuxt-link :to="{ name: 'Essentials' }" class="text-gray-600 hover:text-yellow-600">/ Essentials</nuxt-link>
-                  <nuxt-link :to="{ name: 'Interior' }" class="text-gray-600 hover:text-yellow-600">/ Interior</nuxt-link>
+                  <a href="/" class="hover:underline text-yellow-600">All</a>
+                  <a  href="cart/Bags" class="text-gray-600 hover:text-yellow-600">/Bags & Backpacks</a>
+                  <a href=" Decoration/Decoration" class="text-gray-600 hover:text-yellow-600">/ Decoration</a>
+                  <a href="Essential/Essentials" class="text-gray-600 hover:text-yellow-600">/ Essentials</a>
+                  <a href="Interior/Interior" class="text-gray-600 hover:text-yellow-600">/ Interior</a>
               </div>
           </div>
           <div class="relative flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">

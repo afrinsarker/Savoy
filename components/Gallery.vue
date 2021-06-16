@@ -7,7 +7,7 @@
           <!---image 1--->
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div class="relative ">
-                <a class="absolute inset-0 z-10 bg-white  opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+                <a href="cart/Bags"  class="absolute inset-0 z-10 bg-white  opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
                   <div class="relative ">
                       <a class="block relative h-70 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-classic-chair-2-300x372.jpg">
@@ -49,7 +49,7 @@
             <!---image 2--->
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div class="relative ">
-                <a class="absolute inset-0 z-10 bg-white  opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+                <a href="cart/Bags"  class="absolute inset-0 z-10 bg-white  opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
                   <div class="relative ">
                       <a class="block relative h-70 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://savoy-webstack.netdna-ssl.com/wp-content/uploads/2015/08/product-pendant-lamp-2-300x372.jpg">

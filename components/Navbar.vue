@@ -15,7 +15,7 @@
                     <div>
                       <p class="px-2 py-2">photo shop</p>
                       <ul class="list-none md:list-none ">
-                        <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
+                        <li class="px-2 py-1"><a href="cart/bags" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
                         <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Fullscreen</a></li>
                         <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Header Search</a></li>
                         <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Infinite Scroll</a></li>
@@ -159,7 +159,7 @@
                       <div class="flex grid grid-cols-3 w-80 gap-4 md:grid-cols-3">
                         <div>
                           <p class="px-2 py-2">photo shop</p>
-                          <ul class="list-none md:list-none">
+                          <ul class="list-none w-80 md:list-none">
                             <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Categories grid</a></li>
                             <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Fullscreen</a></li>
                             <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Shop-Header Search</a></li>
@@ -174,7 +174,7 @@
                         </div>
                         <div>
                           <p class="px-2 py-2">Product Layout</p>
-                            <ul class="list-none md:list-none">
+                            <ul class="list-none w-80 md:list-none">
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">No Background</a></li>
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Switches & levels</a><sup class="px-1"><span class="px-2 bg-white text-gray-900 ">New</span></sup></li>
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Extend Description</a></li>
@@ -187,9 +187,9 @@
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Image Zoom</a></li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="w-full">
                           <p class="px-2 py-2">Product Layout</p>
-                            <ul class="list-none md:list-none">
+                            <ul class="list-none w-80 mr-20 md:list-none">
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">No Background</a></li>
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Switches & levels</a><sup class="px-1"><span class="px-2 bg-white text-gray-900 ">New</span></sup></li>
                               <li class="px-2 py-1"><a href="#" class="text-sm text-gray-400 hover:text-gray-100">Extend Description</a></li>
