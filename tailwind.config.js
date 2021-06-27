@@ -15,6 +15,7 @@ module.exports = {
     red: colors.rose,
     yellow: colors.amber,
   },
+  divideStyle: ['hover', 'focus'],
 },
   variants: {
     display: ['responsive', 'group-hover', 'group-focus'],

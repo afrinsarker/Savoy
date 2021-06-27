@@ -2,7 +2,7 @@
     <div>
     <!---cart section--->
     <div>
-      <Filters/>
+      <FiltersComponent />
     </div>
     <section class="text-gray-600 body-font">
       <div class="container px-5 pt-5 mx-auto">
@@ -175,7 +175,7 @@
 </template>
 
 <script>
-import Filters from '@/components/Filters'
+import FiltersComponent from '@/components/shops/FiltersComponent'
 export default {
   data(){
     return{
@@ -184,7 +184,7 @@ export default {
     }
   },
   components:{
-    Filters,
+    FiltersComponent,
   },
 }
 </script>

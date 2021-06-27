@@ -2,7 +2,7 @@
     <div>
       <body>
         <Hero/>
-        <Filters/>
+        <FiltersComponent/>
         <Gallery/>
       </body>
         <!-- items -->
@@ -10,7 +10,7 @@
 </template>
 <script>
 import Hero from '@/components/Hero'
-import Filters from '@/components/Filters'
+import FiltersComponent from '@/components/shops/FiltersComponent'
 import Gallery from '@/components/Gallery'
 
 export default {
@@ -21,9 +21,8 @@ export default {
     }
   },
   components:{
-
     Hero,
-    Filters,
+    FiltersComponent,
     Gallery,
  
   },
